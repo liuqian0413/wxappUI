@@ -1,0 +1,88 @@
+{
+  "pages": [
+    "pages/others/others",
+    "pages/others/commodity_attr/commodity_attr",
+    "pages/others/calendar/calendar",
+    "pages/others/waterfall/waterfall",
+    "pages/others/toast/toast",
+    "pages/others/pictures/pictures",
+    "pages/others/form/form",
+    "pages/others/list/list",
+    "pages/others/loading/loading",
+    "pages/others/xscroll_top_bar/xscroll_top_bar",
+    "pages/others/city_picker/city_picker",
+    "pages/others/city_single_page/city_single_page",
+    "pages/others/city_multi_page/city_multi_page",
+    "pages/others/city_multi_page_city/city_multi_page_city",
+    "pages/others/city_multi_page_district/city_multi_page_district",
+    "pages/others/lefttab/lefttab",
+    "pages/others/xscroll/xscroll",
+    "pages/others/richcontent/richcontent",
+    "pages/others/drawer/drawer",
+    "pages/others/comment/comment",
+    "pages/others/marquee/marquee",
+    "pages/example/index",
+    "pages/example/button/button",
+    "pages/example/list/list",
+    "pages/example/input/input",
+    "pages/example/slider/slider",
+    "pages/example/uploader/uploader",
+    "pages/example/article/article",
+    "pages/example/badge/badge",
+    "pages/example/flex/flex",
+    "pages/example/footer/footer",
+    "pages/example/gallery/gallery",
+    "pages/example/grid/grid",
+    "pages/example/icons/icons",
+    "pages/example/loadmore/loadmore",
+    "pages/example/panel/panel",
+    "pages/example/preview/preview",
+    "pages/example/progress/progress",
+    "pages/example/actionsheet/actionsheet",
+    "pages/example/dialog/dialog",
+    "pages/example/msg/msg",
+    "pages/example/msg/msg_success",
+    "pages/example/msg/msg_fail",
+    "pages/example/picker/picker",
+    "pages/example/toast/toast",
+    "pages/example/navbar/navbar",
+    "pages/example/tabbar/tabbar",
+    "pages/example/searchbar/searchbar"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序组件",
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "backgroundColor": "#f8f8f8",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": "true"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/others/others",
+        "text": "自定义组件",
+        "iconPath": "images/icon_classify.png",
+        "selectedIconPath": "images/icon_classify_select.png"
+      },
+      {
+        "pagePath": "pages/example/index",
+        "text": "WEUI",
+        "iconPath": "images/icon_home.png",
+        "selectedIconPath": "images/icon_home_select.png"
+      }
+    ],
+    "color": "#c6c6c6",
+    "selectedColor": "green",
+    "backgroundColor": "#f7f7fa",
+    "borderStyle": "white",
+    "position": "bottom"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
